@@ -1,0 +1,8 @@
+#msg = "hello python world "
+#print(msg)
+
+#msg = "hello world"
+#print(ms)
+
+#fam = '"A person who never made a mistake never tried anything new."'
+#print(f"Albert Einstein once said, {fam}")
