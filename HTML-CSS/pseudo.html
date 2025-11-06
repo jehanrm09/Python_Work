@@ -1,0 +1,71 @@
+<!-- design a webpage that includes 
+ 1. a button that changes its color tan it hover and when clicked
+ 2. the text input field that changes it's background color when it change focus
+ 3. a checkbox that changes the coolor of it's and mix the lable bold when checked 
+ 4. an unorder list where second list item is styled diff. , with red text color and 
+ bold font and on of the list item has a class "special" allother list item haveend green
+ background and italic font style--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        a:link{
+            color: red;
+        }
+         a:visited{
+            color: green;
+        }
+         a:hover{
+            color: blue ; 
+        }
+         a:active{
+            color:gold;
+        }
+    </style> -->
+
+    <style>
+        button{
+            background-color: rgb(56, 186, 247);
+        }
+        button:hover{
+            background-color: rgb(124, 124, 241);
+        }
+        button:active{
+            background-color: rgb(235, 216, 109);
+        }
+        input:focus{
+            background-color: rgb(145, 240, 136);
+            border: 20px solid blue;
+        }
+        input:checked+label{
+            color: green; 
+            font-weight: bold;
+        }
+        ul li:nth-child(2){
+            color: red;
+            font-weight: bold;
+        }
+        ul li:not(.special){
+            font-style: italic;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- <a href="http://www.goggle.com" target="_blank"> click me</a> -->
+     <button>Click Me</button>
+     <label for="name">Name: </label>
+     <input type="text" id="name"><br>
+     <p><input type="checkbox"  id="agree"> <label for="agree"> agree all terms</label></p>
+     <ul>
+        <li>AB</li>
+        <li>Pqr</li>
+        <li class="special">SJK</li>
+        <li>XYH</li>
+     </ul>
+</body>
+</html>
+

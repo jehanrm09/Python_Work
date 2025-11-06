@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p::first-line{
+            color: red;
+            font-weight: bold;
+        }
+        p::first-letter{
+            font-size: 25px;
+            color: blue;
+            text-decoration: underline;
+        }
+        p::before{
+            content:"Note:";
+            color: green;
+        }
+        p::after{
+            content: "Bye";
+        }
+        ul li::marker{
+            color: purple;
+            font-size: 20px;
+        }
+        ::selection{
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam placeat dignissimos tenetur quaerat suscipit inventore aperiam praesentium 
+        facere, doloremque animi provident, in ratione deleniti, dolores omnis magnam adipisci eveniet accusantium.</h2>
+           
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi quae ipsum fuga, quaerat dignissimos officia alias cum? Sunt amet adipisci, ullam 
+        dolor, exercitationem ducimus in obcaecati corporis ipsum ipsa consectetur.</p>
+
+    <ul>
+        <li>BDA</li>
+        <li>JKJS</li>
+        <li>KJSK</li>
+    </ul>
+    
+    </body>
+</html>

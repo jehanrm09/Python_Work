@@ -1,0 +1,39 @@
+ <!-- write css to perform the task as asked below
+1.add unorder list with 3 list items
+2. if direct child of ul element is <b> then appl font color blue and font size should be 20px
+3. if direct child of ul element is <li> then item should be displayed in red color and in smaller font size -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul>b{
+            font-size: 20px;
+            color: blue;
+        }
+        ul>li{
+            font: smaller;
+            color: red
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><b>xyz</b></li>
+        <li><b>ABC</b></li>
+        <b><li>PQR</li></b>
+    </ul>
+
+    <p style="letter-spacing: normal;">hello how are you</p>
+    <p style="letter-spacing: 7px;">hello how are you</p>
+    <p style="letter-spacing: 0.7em;">hello how are you</p>
+    <p style="letter-spacing: -3px;">hello how are you</p>
+    <p style="word-spacing: 40px;">hello how are you</p>
+    <p style="word-spacing: 0.9em;">hello how are you</p>
+    <p style="word-spacing: -3px;">hello how are you</p>
+</body>
+</html>
