@@ -1,0 +1,8 @@
+f=open("friend.txt","r")
+y=f.read().split()
+f.seek(0)
+x=f.readlines()
+statement_count=len(x)
+word_count=len(y)
+print("No of words : ",word_count)
+print("no of statement : ",statement_count)
